@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(37, 36, 34);
+    font-family: 'JetBrains Mono';
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0, 363);
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+    
+    padding: 10px 60px;
+    font-size: 17px;
+    border: solid black 1px;
+    border-radius: 30px;
+    
+    transition: 0.3s ease 0s;
+}
+.button:hover {
+    color: white;
+    background-color: black;  
+}
+
+#foto {
+    margin: 20px 0 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
